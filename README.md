@@ -1,2 +1,3 @@
-# publicsquareto.github.io
-Public Square TO Homepage
+# [Public Square TO](https://publicsquareto.github.io/)
+
+Helping communities find common ground
