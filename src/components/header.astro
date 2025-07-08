@@ -1,0 +1,30 @@
+---
+import { Content } from "../../README.md";
+---
+
+<header>
+  <Content />
+</header>
+
+<style>
+  header {
+    background-color: var(--theme-primary);
+    align-items: unset;
+    padding: 16px;
+    color: white;
+
+    section {
+      background-color: transparent;
+      align-items: unset;
+
+      > * {
+        line-height: 50%;
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+</style>

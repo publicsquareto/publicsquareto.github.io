@@ -1,0 +1,66 @@
+---
+import Header from "../components/header.astro";
+import { Content as Footer } from "../pages/contact.md";
+
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <Header />
+  <main>
+    <h2>{frontmatter.title}</h2>
+    <slot />
+    <div class="iframe-container">
+      <iframe src={frontmatter.polisEmbed}></iframe>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  :root {
+    --theme-primary: #7e57c2;
+  }
+  main {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    > section {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .iframe-container {
+      width: 100%;
+      flex-grow: 1;
+
+      iframe {
+        height: 1255px;
+        width: 100%;
+        max-width: 777px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 4px;
+        padding: 4px;
+        background-color: white;
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      color: white;
+      background-color: var(--theme-primary);
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+      margin-top: auto;
+    }
+  }
+</style>

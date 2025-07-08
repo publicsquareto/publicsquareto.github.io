@@ -1,0 +1,84 @@
+---
+import Header from "../components/header.astro";
+import { Content as Footer } from "../pages/contact.md";
+
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<Layout>
+  <Header />
+  <main>
+    <!-- <p>Published on: {frontmatter.pubDate.toString().slice(0, 10)}</p>
+<p>Written by {frontmatter.author}</p> -->
+    <slot />
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    flex-grow: 1;
+    margin: 0 auto;
+
+    > section {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* H3 items will be inside grids by default */
+    section[data-heading-rank="2"]:has([data-heading-rank="3"]) {
+      display: grid;
+      align-items: unset;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+
+      > *:not(section) {
+        grid-column: 1 / -1;
+        place-content: center;
+        display: flex;
+        margin: 0;
+      }
+    }
+
+    section[data-heading-rank="3"] {
+      background-color: --theme-light;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
+      align-items: unset;
+
+      p {
+        font-size: 0.95rem;
+      }
+
+      p:has(a) {
+        margin-top: auto;
+        width: 100%;
+        display: flex;
+      }
+      a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: var(--theme-primary);
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+        margin-top: auto;
+        width: 100%;
+      }
+    }
+  }
+</style>
