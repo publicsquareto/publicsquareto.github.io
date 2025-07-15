@@ -1,7 +1,7 @@
 ---
 layout: '../layouts/pageLayout.astro'
 ---
-# Polis Conversation
+# Polis Conversation Instructions
 
 ## How to use it
 
