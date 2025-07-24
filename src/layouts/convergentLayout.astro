@@ -1,0 +1,21 @@
+---
+import Layout from "./Layout.astro";
+import HeaderConvergent from "../components/header-convergent.astro";
+const { title } = Astro.props;
+---
+
+<Layout title={title}>
+  <HeaderConvergent />
+  <main>
+    <slot />
+  </main>
+</Layout>
+
+<style>
+  main {
+    /* width: calc(100% - 40px);
+    max-width: 1200px; */
+    flex-grow: 1;
+    /* margin: 0 auto; */
+  }
+</style>

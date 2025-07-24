@@ -6,7 +6,7 @@ import { Content } from "../../README.md";
   <Content />
 </header>
 
-<style>
+<style scoped>
   header {
     background-color: var(--theme-primary);
     align-items: unset;
@@ -15,10 +15,18 @@ import { Content } from "../../README.md";
 
     section {
       background-color: transparent;
+      display: flex;
+      flex-direction: column;
       align-items: unset;
 
       > * {
         line-height: 50%;
+      }
+
+      h1 {
+        margin-bottom: 0.5lh;
+        line-height: 1;
+        font-size: xx-large;
       }
     }
 

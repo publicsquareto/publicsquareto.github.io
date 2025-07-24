@@ -42,7 +42,7 @@
   <p>© 2025 Public Square TO. All rights reserved.</p>
 </footer>
 
-<style>
+<style scoped>
   .toronto-skyline {
     margin: 3rem 0;
     opacity: 0.1;
@@ -62,6 +62,12 @@
       place-items: center;
       h2 {
         color: white;
+      }
+      p:has(a img) {
+        display: inline-flex;
+        gap: 0.5em;
+        padding: 0.5em;
+        align-items: center;
       }
       img {
         width: 1.5em;
