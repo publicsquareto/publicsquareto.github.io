@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
-    "astro": "^5.9.1"
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.9.1",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@hbsnow/rehype-sectionize": "^1.0.7"

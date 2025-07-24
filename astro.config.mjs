@@ -4,9 +4,12 @@ import sectionize from '@hbsnow/rehype-sectionize';
 
 import mdx from '@astrojs/mdx';
 
+import tailwindcss from '@tailwindcss/vite';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://publicsquareto.github.io',
+
   experimental: {
     headingIdCompat: true,
   },
@@ -16,4 +19,8 @@ export default defineConfig({
   },
 
   integrations: [mdx()],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
