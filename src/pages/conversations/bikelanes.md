@@ -5,4 +5,4 @@ polisEmbed: "https://pol.is/7btrabcujr?parent_url=https%3A%2F%2Fpublicsquareto.g
 ---
 Share your opinions on bike lanes in Toronto – agree, disagree, or contribute your own perspective to the conversation.
 
-[FAQ](./bikelanes-faq)
+[FAQ](/conversations/bikelanes/bikelanes-faq)

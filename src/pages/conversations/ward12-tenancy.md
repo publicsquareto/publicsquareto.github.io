@@ -5,4 +5,4 @@ polisEmbed: "https://pol.is/8bxccbnjbs?parent_url=https%3A%2F%2Fpublicsquareto.g
 ---
 Share your voice on tenant issues in Toronto – agree, disagree, or contribute your own perspective to the conversation.
 
-[FAQ](./ward12-tenancy-faq)
+[FAQ](/conversations/ward12-tenancy/ward12-tenancy-faq)
