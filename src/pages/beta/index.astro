@@ -1,0 +1,193 @@
+---
+import ConvergentLayout from "../../layouts/convergentLayout.astro";
+import globeMap from "../../images/globeMap.svg?raw";
+---
+
+<ConvergentLayout title="Public Square TO">
+  <section
+    aria-labelledby="hero-banner-title"
+    class="hero-banner flex items-center flex-col gap-6 text-center max-w-4xl mx-auto py-16"
+  >
+    <h1 class="text-gray-500 flex flex-col" id="hero-banner-title">
+      Public Square TO
+      <span class="text-4xl font-bold text-black">
+        Helping communities find common ground
+      </span>
+    </h1>
+
+    <p class="max-w-2xl">
+      Public Square TO helps make your voice heard on issues that affect your
+      community. Your Voice Matters in Shaping Toronto
+    </p>
+    <a
+      href="/"
+      class="text-white bg-gray-500 p-2 rounded-xl w-min whitespace-nowrap"
+      >View Demo Video</a
+    >
+  </section>
+  <article
+    id="info-1"
+    class="flex flex-col gap-6 text-left max-w-4xl mx-auto py-16"
+  >
+    <h2 class="flex flex-col">
+      What we have done
+      <span class="text-3xl font-bold">
+        Empowering Local Voices Through Polis
+      </span>
+    </h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <div id="info-1-img-placeholder" class="bg-amber-400 h-48"></div>
+      <div class="flex flex-col justify-center-safe">
+        <h3 class="text-2xl font-bold text-gray-800">Boost Engagement</h3>
+        <p>Turn any community event into an interactive experience.</p>
+        <h3 class="text-2xl font-bold text-gray-800">Real-Time Feedback</h3>
+        <p>Capture meaningful input from attendees instantly.</p>
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <div id="info-1-img-placeholder" class="bg-amber-400 h-48 order-2"></div>
+      <div class="flex flex-col justify-center-safe order-1">
+        <h3 class="text-2xl font-bold text-gray-800">Simple Access</h3>
+        <p>All you need is a smartphone, browser, and internet</p>
+        <h3 class="text-2xl font-bold text-gray-800">Empower Communities</h3>
+        <p>Give every voice a chance to be heard in public forums</p>
+      </div>
+    </div>
+  </article>
+  <article class="flex flex-col gap-6 text-center py-16 bg-gray-200">
+    <h2 class="flex flex-col max-w-4xl mx-auto">
+      Our technology platform Polis
+      <span class="text-3xl font-bold">
+        Steps for Using Polis for Democratic Participation:
+      </span>
+    </h2>
+    <div id="steps-grid" class="grid sm:grid-cols-3 gap-8 px-8">
+      <hgroup>
+        <div class="img-placeholder text-3xl">⚡</div>
+        <h3 class="font-bold text-lg">Choose Pol.is as Your Tool</h3>
+        <p>
+          Select Pol.is, a free and open-source platform, to support democratic
+          participation.
+        </p>
+      </hgroup>
+      <hgroup>
+        <div class="img-placeholder text-3xl">⛳</div>
+
+        <h3 class="font-bold text-lg">
+          Leverage AI-Powered Consensus Building
+        </h3>
+        <p>
+          Utilize Pol.is’s AI capabilities to identify areas of consensus and
+          disagreement among participants.
+        </p>
+      </hgroup>
+      <hgroup>
+        <div class="img-placeholder text-3xl">🫂</div>
+
+        <h3 class="font-bold text-lg">Engage Participants Globally</h3>
+        <p>
+          Open the platform to a diverse audience to encourage wide civic
+          engagement, regardless of location.
+        </p>
+      </hgroup>
+      <hgroup>
+        <div class="img-placeholder text-3xl">📈</div>
+
+        <h3 class="font-bold text-lg">Analyze Input and Generate Insights</h3>
+        <p>
+          Let Pol.is process participants' input and visualize group opinions in
+          real time, helping uncover shared views.
+        </p>
+      </hgroup>
+      <hgroup>
+        <div class="img-placeholder text-3xl">❤️</div>
+
+        <h3 class="font-bold text-lg">Adopt Best Practices from Global Use</h3>
+        <p>
+          Benefit from methods and strategies proven by local governments, civic
+          groups, and major technology companies around the world.
+        </p>
+      </hgroup>
+      <hgroup>
+        <div class="img-placeholder text-3xl">😊</div>
+
+        <h3 class="font-bold text-lg">Apply the Insights to Decision-Making</h3>
+        <p>
+          Use the consensus generated to guide policies, product decisions, or
+          organizational strategies.
+        </p>
+      </hgroup>
+    </div>
+  </article>
+  <article class="flex flex-col gap-6 text-center py-16">
+    <h2 class="flex flex-col">
+      Success Stories
+      <span class="text-3xl font-bold"> Global Use </span>
+    </h2>
+    <p>
+      Discover how Pol.is is being used around the world to foster meaningful
+      public dialogue and informed decision-making
+    </p>
+    <div id="world-map-container" class="max-w-full">
+      <Fragment class="w-full" set:html={globeMap} />
+    </div>
+    <div id="steps-grid" class="grid sm:grid-cols-3 gap-8 px-8">
+      <hgroup class="h-full grid grid-rows-[3lh_1fr_min-content]">
+        <h3 class="font-bold text-lg">International Implementations</h3>
+        <p>
+          From digital democracy projects in Asia (Taiwan) to public
+          consultations in Europe (Finland)—to engage citizens in policymaking
+          and foster inclusive, cross-cultural dialogue.
+        </p>
+        <a href="#">Learn more</a>
+      </hgroup>
+      <hgroup class="h-full grid grid-rows-[3lh_1fr_min-content]">
+        <h3 class="font-bold text-lg">North American Experiences</h3>
+        <p>
+          In the U.S. and Canada, municipalities, universities, and civic groups
+          are using Pol.is to tackle local challenges and engage communities in
+          shaping their shared future.
+        </p>
+        <a href="#">Learn more</a>
+      </hgroup>
+      <hgroup class="h-full grid grid-rows-[3lh_1fr_min-content]">
+        <h3 class="font-bold text-lg">Local: Toronto Stories</h3>
+        <p>
+          This section will be updated with outcomes and insights from Public
+          Square TO’s use of Pol.is across Toronto’s communities as the
+          initiative evolves.
+        </p>
+        <a href="#">Learn more</a>
+      </hgroup>
+    </div>
+  </article>
+  <article class="flex flex-col gap-6 p-16">
+    <h2 class="flex flex-col text-3xl font-bold">
+      Upcoming Events
+      <span class="font-normal text-base">
+        Connect with our volunteers at select events to share feedback on
+        policies, projects, and community initiatives using our free platform.
+      </span>
+    </h2>
+  </article>
+  <article class="flex flex-col items-center-safe gap-6 text-center p-16">
+    <h2 class="flex flex-col max-w-4xl mx-auto">
+      Volunteers
+      <span class="text-3xl font-bold"> Join Our Team </span>
+    </h2>
+    <p class="max-w-2xl">
+      Public Square TO is an initiative brought to life by dedicated volunteers
+      from the Civic Tech Toronto community who are passionate about enhancing
+      democratic participation in our city.
+    </p>
+  </article>
+</ConvergentLayout>
+
+<style>
+  #world-map-container {
+    svg {
+      width: 100%;
+      height: min-content;
+    }
+  }
+</style>
