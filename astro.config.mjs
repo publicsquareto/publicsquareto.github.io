@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://publicsquareto.github.io',
+  site: 'https://publicsquareto.ca',
 
   experimental: {
     headingIdCompat: true,
