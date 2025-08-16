@@ -5,7 +5,7 @@ layout: '../layouts/pageLayout.astro'
 
 ## Overview
 <center>
-  <img width="1276" height="804" alt="ImprovedVotingInst" src="https://github.com/user-attachments/assets/4ff9b2fc-ae80-462f-9df6-489cc93e7c2e" />
+  <img width="80%" alt="ImprovedVotingInst" src="https://github.com/user-attachments/assets/4ff9b2fc-ae80-462f-9df6-489cc93e7c2e" />
 </center>
 
 
