@@ -20,6 +20,6 @@ layout: '../layouts/pageLayout.astro'
 <img width="1265" height="799" alt="ImprovedCommentingInst" src="https://github.com/user-attachments/assets/73017096-b3ed-445a-843e-1db1f3531f82" />
 </center>
 
-<center><a href="https://pol.is/6actc48hc7" style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Click to Join the Conversation</a></center>
+<center><a href="https://pol.is/3smctymsxs" style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Click to Join the Conversation</a></center>
 
 _We recommend spending at least 3 minutes at 3 different times during the conversation._
