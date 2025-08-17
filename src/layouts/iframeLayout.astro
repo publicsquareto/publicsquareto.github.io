@@ -1,13 +1,9 @@
 ---
-import Header from "../components/header.astro";
-import { Content as Footer } from "../pages/contact.md";
-
-import Layout from "./Layout.astro";
+import Layout from "./convergentLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title}>
-  <Header />
   <main>
     <h2>{frontmatter.title}</h2>
     <slot />
@@ -15,7 +11,6 @@ const { frontmatter } = Astro.props;
       <iframe src={frontmatter.polisEmbed}></iframe>
     </div>
   </main>
-  <Footer />
 </Layout>
 
 <style>
@@ -30,6 +25,11 @@ const { frontmatter } = Astro.props;
     display: flex;
     flex-direction: column;
 
+    h2 {
+      font-size: x-large;
+      margin: 1em 0;
+    }
+
     > section {
       align-items: center;
       display: flex;
@@ -39,8 +39,10 @@ const { frontmatter } = Astro.props;
     .iframe-container {
       width: 100%;
       flex-grow: 1;
+      margin: 1em 0;
 
       iframe {
+        margin: 0 auto;
         height: 1255px;
         width: 100%;
         max-width: 777px;
