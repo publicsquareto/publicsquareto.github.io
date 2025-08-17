@@ -6,4 +6,4 @@ polisEmbed: "https://pol.is/3smctymsxs?parent_url=https%3A%2F%2Fpublicsquareto.c
 
 Share your opinions – agree, disagree, or contribute your own perspective to the conversation.
 
-[Instructions](../participant-instructions)
+[Instructions](/participant-instructions)

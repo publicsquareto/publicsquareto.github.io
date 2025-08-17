@@ -25,7 +25,7 @@ layout: "../layouts/convergentLayout.astro"
 </center>
 <br/>
 <center>
-<a href="./conversations/civic-spark" style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
+<a href="/conversations/civic-spark" style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
 Click to Join the Conversation
 </a>
 </center>
