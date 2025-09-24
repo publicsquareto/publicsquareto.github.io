@@ -23,4 +23,8 @@ Across the United States and Canada, municipalities, universities, and civic org
 
 This section will be updated as we document the outcomes and learnings from Public Square TO's implementations of Polis across Toronto's communities and neighborhoods.
 
-We look forward to sharing local experiences and insights as our initiative develops.
+[Affordable Housing](https://pol.is/report/r5bidw9nr3n837mjett9e)
+
+[Bike Lanes](https://pol.is/report/r6wes9nm52jvcmmbsmram)
+
+[Voting Reform](https://pol.is/report/r9axjdhcnh5rs8rjmnbap)
